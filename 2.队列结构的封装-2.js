@@ -69,9 +69,9 @@ function game(list,num){
       }
       console.log(queue.dequeue(),"淘汰了")
   }
-  console.log(`获胜者为 ${queue.front()}`);
+  console.log(`获胜者为:${queue.front()}`);
   return {
       winner:queue.dequeue()
   }
 }
-game(["张三","李四","王五","赵六","小明"],7)
+game(["张三","李四","王五","赵六","小明"],6)
