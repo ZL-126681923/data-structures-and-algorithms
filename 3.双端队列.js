@@ -4,8 +4,7 @@
 class DeQueue {
   #items = {}
   #lowCount = 0
-  #count = 1
-
+  #count = 0
 // 队首删除
   removeFront() {
     if (this.isEmpty()) {
